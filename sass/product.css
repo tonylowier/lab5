@@ -1,0 +1,61 @@
+.hero {
+  background-image: url(../images/product.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1171px;
+}
+
+.description__text {
+  color: rgb(0, 0, 0);
+  font-family: Days One;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 19px;
+  padding-bottom: 154px;
+  width: 1165px;
+  margin: 0 auto;
+}
+
+.advantages__text {
+  color: rgb(0, 0, 0);
+  font-family: Days One;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 76px;
+  letter-spacing: 0%;
+}
+.advantages__item-row {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 25px;
+}
+.advantages__list-item {
+  color: rgb(0, 0, 0);
+  font-family: Days One;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+.advantages__item-list-row {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.advantages__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.advantages__row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 45px;
+  margin-bottom: 100px;
+}/*# sourceMappingURL=product.css.map */

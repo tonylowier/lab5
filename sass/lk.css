@@ -1,0 +1,42 @@
+.lk {
+  background: rgb(54, 45, 45);
+}
+.lk__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 65px;
+  flex-wrap: wrap;
+  padding-top: 175px;
+  padding-bottom: 250px;
+}
+.lk__text {
+  color: rgb(255, 255, 255);
+  font-family: Days One;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 100px;
+  text-align: left;
+}
+.lk__button {
+  background: rgb(190, 34, 34);
+  border-radius: 10px;
+  padding: 20px 65px;
+  color: rgb(255, 255, 255);
+  font-family: Days One;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+  text-align: center;
+  margin-top: 130px;
+}
+
+.lk__button:hover {
+  color: rgb(17, 1, 1);
+}
+
+@media screen and (max-width: 585px) and (min-width: 375px) {
+  .lk__info p {
+    font-size: 25px;
+  }
+}/*# sourceMappingURL=lk.css.map */

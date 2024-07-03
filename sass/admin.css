@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/* admin.sass */
+/* Общие стили для страницы */
+h1, h2, h3 {
+  color: #333;
+}
+
+.admin_ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+.admin_li {
+  float: left;
+}
+
+.admin_box {
+  justify-content: center;
+  display: flex;
+}
+
+.admin_h1 {
+  color: rgb(0, 0, 0);
+  font-family: Days One;
+  font-size: 37px;
+  font-weight: 400;
+  line-height: 61px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.admin_row {
+  margin-left: 547px;
+}
+
+.admin_a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.admin_add {
+  margin-left: 710px;
+  margin-bottom: 60px;
+}
+
+h2, h3 {
+  color: rgb(0, 0, 0);
+  font-family: Days One;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 61px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.admin_a:hover {
+  background-color: #cc8383;
+}
+
+nav h1 {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+form {
+  margin-bottom: 20px;
+  justify-content: center;
+  display: grid;
+}
+
+form input[type=text], form input[type=submit], form button {
+  margin: 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input[type=submit], form button {
+  background-color: #cc8383;
+  color: white;
+  cursor: pointer;
+}
+
+form input[type=submit]:hover, form button:hover {
+  background-color: #cc8383;
+}
+
+form input[type=text] {
+  width: 200px;
+}
+
+form button {
+  width: auto;
+  padding: 10px 18px;
+}
+
+form button[type=submit] {
+  width: 95%;
+}
+
+label {
+  text-align: center;
+}
+
+.admin_span {
+  margin-left: 900px;
+  font-size: 30px;
+}
+
+/* Модальные окна */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}/*# sourceMappingURL=admin.css.map */

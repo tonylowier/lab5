@@ -1,0 +1,521 @@
+a
+    color: inherit
+
+.container 
+    max-width: 1920px
+    margin: 0 auto
+
+
+.header
+    background: rgb(54, 45, 45)
+    padding-top: 29px
+    padding-bottom: 21px
+    &__nav
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &__container
+        max-width: 1920px
+        margin: 0 auto
+        padding: 0 120px
+    &__list
+        display: flex
+        align-items: center
+        gap: 30px
+    &__item
+        color: rgba(255, 255, 255, 0.49)
+        font-family: Nunito
+        font-size: 24px
+        font-weight: 400
+        line-height: 33px
+        text-align: left
+    &__buttons
+        display: flex
+        align-items: center
+        gap: 30px
+        a
+            color: rgb(255, 255, 255)
+            font-family: Days One
+            font-size: 25px
+            font-weight: 400
+            line-height: 32px
+    &__auth
+        border: 1px solid rgb(181, 0, 0)
+        border-radius: 13px
+        padding: 7px 40px
+    &__reg
+        border: 1px solid rgb(181, 0, 0)
+        border-radius: 13px
+        background: rgb(165, 0, 0)
+        padding: 7px 40px
+
+
+.hero
+    background-image: url(../images/bg-hero.png)
+    background-repeat: no-repeat
+    background-size: cover
+    padding-bottom: 300px
+
+    &__title
+        color: rgb(255, 255, 255)
+        font-family: Days One
+        font-size: 48px
+        font-weight: 400
+        line-height: 61px
+        text-align: center
+        padding-top: 146px
+        padding-bottom: 133px
+    
+    &__wrapper
+        display: flex
+        align-items: center
+        justify-content: center
+        gap: 65px
+
+    &__text
+        gap: 6px
+        width: 395px    
+    &__subtitle
+        color: #FFFFFF
+        font-family: Arian AMU
+        font-size: 40px
+        font-weight: 400
+        line-height: 49px
+    &__info
+        color: rgb(255, 255, 255)
+        font-family: Arian AMU
+        font-size: 24px
+        font-weight: 400
+        line-height: 29.3px
+        text-align: left
+        width: 400px
+
+
+.me
+    padding-bottom: 200px
+    &__title
+        color: rgb(0, 0, 0)
+        font-family: Days One
+        font-size: 48px
+        font-weight: 400
+        line-height: 61px
+        text-align: center
+        margin-top: 60px
+    &__subtitle
+        color: rgb(0, 0, 0)
+        font-family: Nunito
+        font-size: 40px
+        font-weight: 400
+        line-height: 55px
+        text-align: center
+        margin-top: 20px
+        margin-bottom: 152px
+        width: 1068px
+        margin: 0 auto
+        padding: 20px 0px 150px 0px
+    &__wrapper
+        display: flex
+        align-items: center
+        justify-content: center
+        gap: 114px
+    &__list
+        display: flex
+        flex-direction: column
+        gap: 24px
+    &__item
+        color: rgb(0, 0, 0)
+        font-family: Days One
+        font-size: 24px
+        font-weight: 400
+        line-height: 31px
+        width: 337px
+        display: flex
+        align-items: center
+    &__item::before 
+        content: url(../images/down.png)
+        margin-right: 7px
+
+
+.best
+    padding-bottom: 200px
+    &__title
+        color: rgb(0, 0, 0)
+        font-family: Days One
+        font-size: 48px
+        font-weight: 400
+        line-height: 61px
+        text-align: center
+    &__subtitle
+        color: rgba(0, 0, 0, 0.74)
+        font-family: Nunito
+        font-size: 40px
+        font-weight: 400
+        line-height: 55px
+        text-align: center
+        width: 1173px
+        margin: 0 auto
+        padding: 65px 0px 65px 0px
+    &__wrapper
+        margin-top: 75px
+        display: flex
+        justify-content: center
+        gap: 102px
+        margin-bottom: 60px
+    &__list
+        display: flex
+        flex-direction: column
+        gap: 20px
+    &__item
+        color: rgb(0, 0, 0)
+        font-family: Nunito
+        font-size: 24px
+        font-weight: 400
+        line-height: 33px
+        display: flex
+        align-items: center
+    &__item::before 
+        content: url(../images/down.png)
+        margin-right: 23px
+    &__button
+        border-radius: 13px
+        background: rgb(165, 0, 0)
+        padding: 20px 33px
+        color: rgb(255, 255, 255)
+        font-family: Days One
+        font-size: 32px
+        font-weight: 400
+        line-height: 41px
+        margin-left: 190px
+    &__img 
+        width: 35%
+    
+
+.form
+    background: rgb(54, 45, 45)
+    padding-bottom: 200px
+
+    &__hero
+        transform: translateX(680px) translateY(-55px)
+
+    &__title
+        color: rgb(255, 255, 255)
+        font-family: Days One
+        font-size: 48px
+        font-weight: 400
+        line-height: 61px
+        text-align: center
+        padding-top: 40px
+        padding-bottom: 60px
+    &__subtitle
+        color: rgb(0, 0, 0)
+        font-family: Days One
+        font-size: 64px
+        font-weight: 400
+        line-height: 81px
+        text-align: left
+    &__wrapper
+        display: flex
+        flex-direction: column
+        align-items: center
+        gap: 30px
+        padding-top: 100px
+        padding-bottom: 100px
+        border-radius: 60px
+        background: rgb(217, 217, 217)
+        max-width: 854px
+        margin: 0 auto
+
+    &__input
+        border-bottom: 3px solid black
+        height: 50px
+        color: rgba(0, 0, 0, 0.67)
+        font-family: Circe Bold
+        font-size: 24px
+        font-weight: 700
+        line-height: 35px
+        text-align: left
+        width: 60%
+    
+    &__button
+        background: rgb(34, 75, 99)
+        padding: 18px 82px
+        color: rgb(255, 255, 255)
+        font-family: Circe Bold
+        font-size: 20px
+        font-weight: 700
+        line-height: 29px
+        text-align: left
+        margin-top: 73px
+
+.reviews
+    padding-bottom: 100px
+    &__title
+        padding-top: 125px
+        margin-bottom: 125px
+        color: rgb(0, 0, 0)
+        font-family: Days One
+        font-size: 48px
+        font-weight: 400
+        line-height: 61px
+        text-align: center
+    
+    &__item
+        display: flex
+        flex-direction: column
+        border-radius: 24px
+        background: rgba(38, 54, 86, 0.89)
+        max-width: 465px
+        padding: 35px 75px 13px 39px
+        &-info
+            display: flex
+            align-items: center
+            gap: 20px
+        &-text
+            display: flex
+            flex-direction: column
+            color: rgba(255, 255, 255, 0.99)
+            font-family: Days One
+            font-size: 24px
+            font-weight: 400
+            line-height: 31px
+        &-review
+            padding: 15px
+            margin-top: 15px
+            border-radius: 11px
+            background: rgb(52, 19, 19)
+            color: rgb(255, 255, 255)
+            font-family: Days One
+            font-size: 17px
+            font-weight: 400
+            line-height: 22px
+            margin-bottom: 15px
+    span
+        color: rgb(255, 255, 255)
+        font-family: Nunito
+        font-size: 17px
+        font-weight: 400
+        line-height: 23px
+    &__row
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        gap: 45px
+
+    &__wrapper
+        display: flex
+        flex-direction: row
+        justify-content: center
+        gap: 75px
+        flex-wrap: wrap
+    &__up 
+        transform: translate(620px, 0px)
+
+
+.line
+    width: 100%
+
+.footer
+    background: rgb(58, 58, 58)
+    &__container
+        display: flex
+        flex-wrap: wrap
+        align-items: center
+        max-width: 1920px
+        margin: 0 auto
+        padding: 25px 120px
+        gap: 430px
+        text-align: center
+    
+    &__content
+        display: flex
+        flex-wrap: wrap
+        gap: 125px
+        margin-left: -90px
+
+    ul
+        color: rgba(255, 255, 255, 0.67)
+        font-family: Nunito
+        font-size: 24px
+        font-weight: 400
+        line-height: 33px    
+    &__links
+        margin-left: 200px
+    
+
+// БУРГЕР
+.header__burger-btn 
+    display: none
+    position: relative
+    width: 40px
+    height: 40px
+    border: none
+    background-color: transparent
+    z-index: 2
+
+
+/* Стили для модального окна */
+.modal 
+    display: none /* Скрыто по умолчанию */
+    position: fixed /* Оставаться на месте */
+    z-index: 1 /* Сидеть на вершине */
+    left: 0
+    top: 0
+    width: 100% /* Полная ширина */
+    height: 100% /* Полная высота */
+    overflow: auto /* Включить прокрутку, если необходимо */
+    background-color: rgb(0,0,0) /* Цвет фона */
+    background-color: rgba(0,0,0,0.4) /* Цвет фона с прозрачностью */
+    padding-top: 60px
+
+
+.modal-content 
+    background-color: #fefefe
+    margin: 5% auto /* 15% сверху и выровнено по центру */
+    padding: 50px
+    border: 1px solid #888
+    width: 80% /* Ширина 80% */
+
+
+.close-button 
+    color: #aaa
+    float: right
+    font-size: 28px
+    font-weight: bold
+
+
+.close-button:hover,
+.close-button:focus 
+    color: black
+    text-decoration: none
+    cursor: pointer
+
+
+
+.header__burger-btn span 
+    position: absolute
+    width: 30px
+    height: 3px
+    background-color: white
+    left: 5px
+    transition: transform .5s, opacity .5s, background-color .5s
+
+
+.header__burger-btn span:nth-child(1) 
+    transform: translateY(-10px)
+
+
+.header__burger-btn span:nth-child(3) 
+    transform: translateY(10px)
+
+
+.header.open .header__burger-btn span 
+    background-color: white
+
+
+.header.open .header__burger-btn span:nth-child(1) 
+    transform: translateY(0) rotate(45deg)
+
+
+.header.open .header__burger-btn span:nth-child(2) 
+    opacity: 0
+
+
+.header.open .header__burger-btn span:nth-child(3) 
+    transform: translateY(0) rotate(-45deg)
+
+
+@media screen and (max-width:1432px) and (min-width:320px)
+    .header__links
+        display: none
+    
+    /*////////BURGER//////*/
+
+    .header__burger-btn 
+        display: block
+    
+    .header__nav 
+        position: absolute
+        top: -500px
+        padding: 75px 20px 20px 20px
+        width: 350px
+        background: rgb(100, 10, 10)
+        transition: transform .5s
+        opacity: 0.8
+    
+    .header__nav
+        display: block
+
+    .header__logo
+        margin-left: 42%
+
+    .header__list
+        flex-direction: column
+        margin-bottom: 10px
+        margin-top: 20px
+    
+    .header__buttons
+        flex-direction: column
+
+    
+    .header__links a
+        color: white
+        font-size: 21px
+        display: block
+        padding: 10px 0
+    
+    .header.open .header__nav 
+        transform: translateY(100%)
+        color: black
+    
+    /*//////BURGER END ///////*/
+
+@media screen and (max-width:1030px) and (min-width:320px)
+    .container
+        padding: 0px
+
+@media screen and (max-width:570px) and (min-width:320px)
+    .header__nav
+        left: -10px
+    .header__burger-btn
+        left: -100px
+
+
+@media screen and (max-width:1451px) and (min-width:320px)
+
+    .footer__container
+        gap: 20px
+        flex-direction: column
+        align-items: center
+        justify-content: center
+
+    .footer__content
+        gap: 20px
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        text-align: center
+
+    .footer__links
+        margin-left: 0px
+@media screen and (max-width:1400px) and (min-width:320px)
+    .form__wrapper
+        margin-left: 0px
+
+@media screen and (max-width:565px) and (min-width:320px)
+    .best__button
+        font-size: 16px
+
+    .form__subtitle
+        text-align: center
+
+@media screen and (max-width:400px) and (min-width:320px)
+    .hero__title
+        font-size: 30px
+
+@media screen and (max-width:1733px) and (min-width:320px)
+    .best__wrapper
+        flex-wrap: wrap
+
+@media screen and (max-width:490px) and (min-width:320px)
+    .line
+        display: none

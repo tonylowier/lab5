@@ -1,0 +1,158 @@
+.hero {
+  padding-bottom: 200px;
+}
+.hero span {
+  color: rgb(190, 34, 34);
+}
+.hero__subtitle {
+  font-family: Days One;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 61px;
+  text-align: center;
+}
+
+.catalog {
+  padding-bottom: 100px;
+}
+.catalog__title {
+  color: rgb(0, 0, 0);
+  font-family: Days One;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 61px;
+  text-align: center;
+  margin-top: 100px;
+}
+.catalog__wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 50px;
+}
+.catalog__text {
+  max-width: 248px;
+}
+.catalog span {
+  color: rgb(190, 34, 34);
+}
+.catalog__subtitle {
+  font-family: Days One;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  width: 266px;
+}
+.catalog__item {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 18px;
+}
+.catalog__column {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.catalog__text {
+  color: rgb(129, 128, 128);
+  font-family: Days One;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
+  width: 250px;
+}
+.catalog__img-main {
+  height: 272px;
+  margin-top: 50px;
+}
+.catalog .container {
+  padding: 0 150px;
+}
+
+.products {
+  padding-top: 80px;
+  padding-bottom: 115px;
+}
+.products__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.products__column {
+  border-radius: 50px;
+  background: rgba(38, 54, 86, 0.89);
+  padding: 36px 45px 31px 49px;
+}
+.products__item-info {
+  color: rgb(255, 255, 255);
+  font-family: Days One;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 23px;
+}
+.products__price {
+  color: rgb(255, 255, 255);
+  font-family: Days One;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.products__item-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.products__link {
+  color: rgb(255, 255, 255);
+  font-family: Days One;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  border-radius: 9px;
+  background: rgb(213, 0, 0);
+  padding: 15px 15px;
+}
+.products__up {
+  transform: translate(1320px, 74px);
+}
+
+.hero__arrow {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.hero__left, .hero__right {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+}
+
+.hero__left {
+  left: 10px;
+}
+
+.hero__right {
+  right: 10px;
+}
+
+@media screen and (max-width: 1569px) and (min-width: 320px) {
+  .products__row {
+    justify-content: center;
+    gap: 200px;
+  }
+}
+@media screen and (max-width: 1030px) and (min-width: 320px) {
+  .catalog .container {
+    padding: 0px;
+  }
+}/*# sourceMappingURL=estate.css.map */

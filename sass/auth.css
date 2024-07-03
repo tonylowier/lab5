@@ -1,0 +1,93 @@
+.auth {
+  background: url(../images/auth-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+.auth__title {
+  font-family: Days One;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 61px;
+  text-align: center;
+  padding-top: 100px;
+  color: rgba(255, 255, 255, 0.6980392157);
+}
+.auth__title span {
+  color: rgb(190, 34, 34);
+}
+.auth__text {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Days One;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+  text-align: center;
+}
+.auth__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-top: 100px;
+}
+.auth__input {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.85);
+  height: 50px;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Circe Bold;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-align: center;
+  width: 40%;
+}
+.auth__button {
+  padding: 20px 65px;
+  border-radius: 13px;
+  background: rgb(165, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: Days One;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 50px;
+}
+.auth__link {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-decoration-line: underline;
+}
+
+.error {
+  color: red;
+  font-size: 18px;
+}
+
+.auth__link:hover {
+  color: rgb(165, 0, 0);
+}
+
+.auth__button:hover {
+  color: rgb(17, 1, 1);
+}
+
+::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}/*# sourceMappingURL=auth.css.map */
